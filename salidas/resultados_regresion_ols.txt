@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       tasa_real_expost   R-squared:                       0.369
+Model:                            OLS   Adj. R-squared:                  0.355
+Method:                 Least Squares   F-statistic:                     2.480
+Date:                Fri, 25 Sep 2026   Prob (F-statistic):             0.0457
+Time:                        18:04:10   Log-Likelihood:                -324.93
+No. Observations:                 180   AIC:                             659.9
+Df Residuals:                     175   BIC:                             675.8
+Df Model:                           4                                         
+Covariance Type:                  HAC                                         
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            9.2598      4.173      2.219      0.027       1.080      17.439
+tasa_bcrp       -0.1484      0.183     -0.811      0.417      -0.507       0.210
+tipo_cambio     -2.1796      1.430     -1.524      0.127      -4.983       0.623
+embig_riesgo    -0.0222      0.009     -2.585      0.010      -0.039      -0.005
+liquidez_m2   5.899e-06   6.08e-06      0.970      0.332   -6.02e-06    1.78e-05
+==============================================================================
+Omnibus:                        6.127   Durbin-Watson:                   0.134
+Prob(Omnibus):                  0.047   Jarque-Bera (JB):                6.281
+Skew:                          -0.453   Prob(JB):                       0.0433
+Kurtosis:                       2.873   Cond. No.                     2.97e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 12 lags and without small sample correction
+[2] The condition number is large, 2.97e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

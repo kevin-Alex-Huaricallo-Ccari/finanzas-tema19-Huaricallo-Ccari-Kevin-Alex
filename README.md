@@ -35,3 +35,9 @@ El presente trabajo de investigación analiza los determinantes macrofinancieros
 - /datos_crudos: Archivo CSV original de la API (datos_crudos_2024200502H.csv).
 - /datos_procesados: Dataset limpio y preparado (datos_procesados_2024200502H.csv).
 - /salidas: Tablas y gráficos generados para el artículo en LaTeX.
+
+## 🔑 Verificación de Integridad de Datos (SHA-256)
+
+* **Archivo:** `datos_procesados/datos_procesados_2024200502H.csv`
+* **Algoritmo:** SHA-256
+* **Hash:** `9a83d8dc06f35778c51b085162178569ab4d2bcb05063ea1e930d0d34239c819`
